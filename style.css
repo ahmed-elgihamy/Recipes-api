@@ -12,7 +12,8 @@ nav{
  background-color:#122b1e; 
     align-self: center;
     align-items: center;
-    margin: auto;
+   
+   
 }
 
 .log img{
@@ -21,7 +22,7 @@ nav{
 
 nav ul 
 {
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
