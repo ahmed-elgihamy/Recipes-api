@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+ background-color:#122b1e; 
+    align-self: center;
+    align-items: center;
+    margin: auto;
+}
+
+.log img{
+   width: 7.25rem;
+}
+
+nav ul 
+{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul  li
+{
+font-size: 1.5625rem;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul  li:hover
+{
+    color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+.card {
+    border: 3px solid #122b1e;
+    width: 30%;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 576px) { 
+
+
+
+ }
+
+
+
+
+
+@media (max-width: 992px) 
+
+{ 
+    .card {
+        width: 40%;
+    } 
+}
+
+
+@media (max-width: 768px) 
+{
+    .card {
+        width: 80%;
+    } 
+}
+
+
+
+
+
+
+
+
+.card img
+{
+    width: 100%;
+    height: 300px;
+}
+
+.bottom-img{
+    padding-block: 15px;
+    text-align: center;
+}
+.bottom-img a{
+    background-color:#122b1e; 
+    padding: 12px;
+    padding-inline:20px ;
+    margin-top: 5px;
+    border-radius: 20%;
+    color: white;
+}
+h3{
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-block: 50px;
+}
+
+footer
+{
+   
+    background-color:#122b1e;
+    height: 70px;
+    min-width: 100vw;
+    color: rgb(253, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
