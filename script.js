@@ -1,4 +1,8 @@
 var urls = document.querySelectorAll(".url ul li");
+var navrespon = document.querySelector(".nav");
+var iconM = document.querySelector(".icon");
+var iconClose = document.querySelector(".icon-close");
+
 var data=[];
 getRec("pizza");
 for(var i=0;i<urls.length;i++)
@@ -47,7 +51,17 @@ for(var i=0;i<data.length;i++)
     `
 }
 
-console.log(cards)
 document.getElementById("mycards").innerHTML =cards;
 
 }
+
+
+iconM.addEventListener("click",function(){
+    navrespon.classList.remove("d-none");
+    iconM.classList.add("d-none");
+})
+
+iconClose.addEventListener("click",function(){
+    navrespon.classList.add("d-none");
+    iconM.classList.remove("d-none");
+})
